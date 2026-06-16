@@ -12,25 +12,17 @@ import Dashboard from "./components/Dashboard";
 
 function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-indigo-50 via-white to-cyan-50 pt-24">
+    <div className="min-h-screen overflow-x-hidden bg-slate-50 pt-24">
       <Navbar />
 
       <Hero />
-
       <Features />
-
       <Platforms />
-
       <HowItWorks />
-
       <KnowledgeGraph />
-
       <Dashboard />
-
       <Pricing />
-
       <Testimonials />
-
       <CTA />
       <Footer />
     </div>
