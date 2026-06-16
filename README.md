@@ -1,16 +1,81 @@
-# React + Vite
+# MeetingAI Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern AI-powered meeting assistant landing page built with React.js, Tailwind CSS, and Framer Motion.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- AI Transcription
+- Screen Intelligence
+- Smart Meeting Summaries
+- Action Item Extraction
+- Knowledge Graph Visualization
+- Semantic Search
+- Interactive Dashboard Preview
+- Pricing Section
+- Testimonials Section
+- Call To Action (CTA)
+- Responsive Design
+- Smooth Animations
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- Vite
+- Tailwind CSS
+- Framer Motion
+- React Icons
 
-## Expanding the ESLint configuration
+## Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+src/
+ ├── components/
+ │   ├── Navbar.jsx
+ │   ├── Hero.jsx
+ │   ├── Features.jsx
+ │   ├── Platforms.jsx
+ │   ├── HowItWorks.jsx
+ │   ├── KnowledgeGraph.jsx
+ │   ├── Dashboard.jsx
+ │   ├── Pricing.jsx
+ │   ├── Testimonials.jsx
+ │   ├── CTA.jsx
+ │   └── Footer.jsx
+ ├── App.jsx
+ ├── main.jsx
+ └── index.css
+```
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/anamta857/MeetingAI-Landing-Page.git
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+## Author
+
+Anam
+
+## Branch Used
+
+main
